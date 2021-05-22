@@ -1,0 +1,182 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#root {
+	width: 100%;
+}
+
+span {
+	color: #EECA5D;
+	font-weight: bold;
+}
+
+p{
+	color: #e9cc74;
+}
+
+h3{
+	color: #EECA5D;
+	font-weight: bold;
+}
+
+.infoText{
+	color: white;
+	font-weight: bold;
+}
+
+.infoPlayerBox {
+	height: 50%;
+	display: flex;
+}
+
+.imagePlayerBox {
+	height: 30%;
+	height: 100%;
+}
+
+.logoPlayer {
+	height: 40px;
+	width: 50px;
+}
+
+.imagePlayer {
+	height: 100%;
+	width: 80%;
+}
+
+.card {
+	display: flex;
+	justify-content: center;
+	background-color: #e8e8e8;
+	border: 1px solid #ccc;
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	cursor: pointer;
+}
+
+@media (max-width: 768px) {
+	.pagination {
+		width: 10%;
+	}
+}
+
+.paginateBox {
+	bottom: 0;
+	width: 100%;
+	padding: 10px;
+}
+
+@media (max-width: 768px) {
+	.paginateBox {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+.pagination a {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #6c7ac9;
+	color: #6c7ac9;
+}
+
+.pagination__link {
+	font-weight: bold;
+}
+
+.pagination__link--active a {
+	color: #fff;
+	background: #6c7ac9;
+}
+
+.pagination__link--disabled a {
+	color: rgb(198, 197, 202);
+	border: 1px solid rgb(198, 197, 202);
+}
+
+.alertNotPlayers {
+	align-items: center;
+	display: flex;
+	height: 60px;
+	justify-content: center;
+	color: #6c7ac9;
+	font-weight: bold;
+	background-color: #eee;
+	padding: 20px;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 768px) {
+	.form {
+		flex-direction: column;
+	}
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+}
+
+.fullBody{
+	height: 100vh;
+}
+
+.detail{
+	width: 30%;
+	/* background-color: #f92160; */
+	height: 100%;
+}
+
+.detail1{
+	display: flex;
+	width: 70%;
+	height: 100%;
+	padding: 10px;
+	align-items: center;
+}
+
+@media (max-width: 768px) {
+	.detail1 {
+		margin-top: 50px;
+		padding: 0;
+	}
+}
+
+
+@media (max-width: 768px) {
+	.detail {
+		height: 50%;
+		width: 100%;
+	}
+}
+
+
